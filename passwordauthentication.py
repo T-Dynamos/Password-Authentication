@@ -1,6 +1,6 @@
 username = input("Enter your username: ")
 password = input("Enter your password: ")
-print("Your username and password is saved.")
+print("Your username and password are saved.")
 
 username1 = input("Enter your username: ")
 password1 = input("Enter your password: ")
