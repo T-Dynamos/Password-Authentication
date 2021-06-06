@@ -6,7 +6,8 @@ username1 = input("Enter your username: ")
 password1 = getpass.getpass("Enter your password: ")
 if username == username1 and password == password1:
     print("Verified")
-elif username != username1 or password != password1:
+while username != username1 or password != password1:
     print("Invalid Username or password")
     username1 = input("Enter your username: ")
     password1 = getpass.getpass("Enter your password: ")
+print("Verified.")
